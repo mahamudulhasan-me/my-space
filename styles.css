@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Russo One", sans-serif;
+}
+p {
+  font-family: "Inter", sans-serif;
+  color: #dadada;
+}
+
+/* CSS Styles */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0% 5%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+/* discover universe section  */
+.discover-universe {
+  background-color: #18163b;
+  padding: 120px 0px;
+}
+
+.discover-universe h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+.discover-universe_container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+}
+.discover-universe_item {
+  background-color: #231e44;
+  padding: 50px;
+  text-align: center;
+}
+.discover-universe img {
+  width: 144px;
+  height: 128px;
+}
+.discover-universe_item h3 {
+  color: #fff;
+  font-size: 30px;
+  padding: 27px 0;
+  font-weight: 400;
+}
+.discover-universe_item:hover {
+  background: linear-gradient(95deg, #2317fa -1.25%, #d529e4 97.48%);
+
+  box-shadow: 6px 16px 31px 8px rgba(59, 88, 239, 0.15);
+}
+
+/* upcoming section styles  */
+.upcoming-section {
+  background-color: #1e1b3a;
+  padding: 120px 0;
+}
+.upcoming-section_filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.6;
+  background: #2d2853;
+  padding: 27px;
+  backdrop-filter: blur(22.5px);
+}
+
+.upcoming-section_filter aside {
+  display: flex;
+  align-items: center;
+}
+.isUpcoming {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 20px 50px;
+  border-right: 2px solid #dadada;
+}
+.launchYear {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 20px 50px;
+}
+
+.upcoming-section_filter form {
+  display: flex;
+  border: 1.5px solid #dadada;
+}
+.upcoming-section form input {
+  border: none;
+  background-color: transparent;
+  padding: 16px 32px;
+  color: #fff;
+}
+.upcoming-section_filter form input:focus {
+  outline: none;
+}
+.upcoming-section form button {
+  border: 1px solid #6f6c83;
+  background: #0e0d22;
+  padding: 7px 36px;
+  color: #fff;
+}
+.upcoming-section_container {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.upcoming-section_item {
+  text-align: center;
+  padding: 32px;
+  border-radius: 10px;
+  background-color: #1d0c41;
+  backdrop-filter: blur(22.5px);
+}
+.upcoming-section_item h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 34px 0 28px 0;
+}
+.upcoming-section_item img {
+  width: 144.54px;
+  height: 125px;
+}
+.upcoming-section_item:hover {
+  background: linear-gradient(95deg, #2317fa -1.25%, #d529e4 97.48%);
+}
