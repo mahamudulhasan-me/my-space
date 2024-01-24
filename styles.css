@@ -162,3 +162,49 @@ p {
 .upcoming-section_item:hover {
   background: linear-gradient(95deg, #2317fa -1.25%, #d529e4 97.48%);
 }
+.upcoming-section_pagination {
+  width: 100%;
+  text-align: center;
+  padding-top: 47px;
+}
+.upcoming-section_pagination span {
+  padding: 0 10px;
+}
+
+footer {
+  background-color: #18163b;
+  width: 100%;
+
+  padding: 110px 0;
+}
+footer h1 {
+  color: #fff;
+
+  text-align: center;
+
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer input {
+  border: 2px solid #454466;
+  width: 500px;
+  height: 57px;
+  background-color: #18163b;
+  padding: 0 20px;
+}
+footer button {
+  border: 2px solid #d529e4;
+  padding: 19px 41px;
+}
+footer form {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+footer input:focus {
+  outline: none;
+}
