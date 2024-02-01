@@ -112,6 +112,7 @@ nav ul li a {
 .astronaut img {
   width: 80%;
   transform: rotate(-20deg);
+  z-index: 2;
 }
 .stella2 img {
   width: 50%;
