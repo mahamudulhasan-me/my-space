@@ -18,6 +18,148 @@ p {
   padding: 0% 5%;
 }
 
+/* header section styles  */
+header {
+  background-color: #1e1b3a;
+}
+.main-head {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 20px 0;
+  gap: 16px;
+}
+nav ul li button {
+  outline: none;
+  border: 1px solid #6b1ef1;
+  color: #fff;
+  background-color: transparent;
+  padding: 10px;
+  cursor: pointer;
+  font-family: "Russo One", sans-serif;
+  cursor: pointer;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* banner section styles  */
+.banner {
+  background-color: #1e1b3a;
+  padding: 50px 0;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.banner .container {
+  display: flex;
+  align-items: start;
+}
+.banner-text {
+  width: 45%;
+  z-index: 2;
+}
+
+.banner aside h1 {
+  color: #fff;
+  font-size: 70px;
+  padding: 20px 0px;
+}
+.banner aside p {
+  font-size: 22px;
+  padding: 30px 0px;
+}
+.stella {
+  background-color: #090909;
+  padding: 12px;
+  width: 309px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+.stella h4 {
+  font-size: 22px;
+  margin-left: 5px;
+  background: linear-gradient(95deg, #2317fa -1.25%, #d529e4 97.48%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner .stella img {
+  width: 71px;
+  height: 41px;
+}
+.banner button {
+  background: linear-gradient(95deg, #2317fa -1.25%, #d529e4 97.48%);
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.banner-image {
+  width: 55%;
+  overflow: hidden;
+}
+.astronaut img {
+  width: 80%;
+  transform: rotate(-20deg);
+}
+.stella2 img {
+  width: 50%;
+  position: absolute;
+  opacity: 0.2;
+  right: -100px;
+}
+.banner-circle {
+  position: absolute;
+  width: 136px;
+  height: 118px;
+  bottom: 10px;
+  right: 8%;
+}
+.jupiter {
+  position: absolute;
+  width: 185px;
+  height: 100px;
+  right: 6%;
+  bottom: 50%;
+}
+.light {
+  position: absolute;
+  width: 130px;
+  height: 64px;
+  top: 0%;
+  right: 15%;
+  transform: rotate(125deg);
+}
+.square {
+  position: absolute;
+  z-index: 1;
+  width: 122px;
+  height: 131px;
+  left: 5%;
+  top: 18%;
+  rotate: 30deg;
+}
+.circle {
+  position: absolute;
+  width: 310px;
+  height: 310px;
+  border-radius: 50%;
+  background: #30285b;
+  opacity: 0.9;
+  top: 40%;
+  left: -10%;
+}
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -108,6 +250,15 @@ p {
   padding: 20px 50px;
   border-right: 2px solid #dadada;
 }
+.isUpcoming select,
+.launchYear select {
+  background-color: transparent;
+  color: #dadada;
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
 .launchYear {
   display: flex;
   align-items: center;
@@ -174,8 +325,7 @@ p {
 footer {
   background-color: #18163b;
   width: 100%;
-
-  padding: 110px 0;
+  padding-top: 60px;
 }
 footer h1 {
   color: #fff;
@@ -193,6 +343,7 @@ footer input {
   height: 57px;
   background-color: #18163b;
   padding: 0 20px;
+  color: #adb6cb;
 }
 footer button {
   border: 2px solid #d529e4;
@@ -207,4 +358,19 @@ footer form {
 }
 footer input:focus {
   outline: none;
+}
+.footer-logo {
+  margin-top: 100px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-transform: uppercase;
+  gap: 5px;
 }
